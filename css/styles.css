@@ -46,14 +46,14 @@
 }
 /*Inner*/
 .container{
-  width: 80%;
+  width: 70%;
   display: block;
   margin: auto;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 /*Text content*/
 .content-section{
-  margin-top: 70px;
+  margin-top: 100px;
   background: rgba( 255, 255, 255, 0.20 );
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 3.0px );
@@ -61,7 +61,14 @@
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
   float:left;
-  width: 50%;
+  width: 100%;
+}
+/*TEXT*/
+.text-section{
+  width:50%;
+}
+.title{
+  text-align: center;
 }
 /*image*/
 .image-section{
@@ -69,11 +76,11 @@
   width:45%;
 }
 .image-section img{
-  margin-top: 100px;
-  margin-left:20px;
-  width:75%;
+  margin-top: 0px;
+  margin-left:0px;
+  width:100%;
   height: auto;
-  border-radius: 30%;
+  border-radius: 20%;
 }
 .content-section .title{
   margin-left: 30px;
@@ -82,9 +89,11 @@
 .content-section .content h3{
   margin-left:30px;
   color: #008cff;
+  text-align: center;
 }
 .content-section .content p{
-  margin-top: 30px;
+  text-align: center;
+  margin-top: 20px;
   margin-left: 20px;
   padding-left: 10px;
   padding-right: 10px;
@@ -95,9 +104,7 @@
 .content-section .button{
   margin-top: 30px;
   margin-inline-start: 25%;
-  
-  
-}
+  }
 .content-section .button a{
   display: relative;
   background-color: #ff0000;
@@ -159,7 +166,7 @@
   }
   .content-section .button{
     text-align: center;
-    margin-inline-start: auto;
+    align-items: center;
   }
   .content-section .button a{
     padding: 9px 30px;    
