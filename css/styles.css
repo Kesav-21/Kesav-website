@@ -16,37 +16,9 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-/*Background of top nav*/
-.top-nav {
-  background-color: #2d9aff;
-  overflow: hidden;
-}
-/*links of top nav left*/
-.top-nav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-/*hover links color*/ 
-.top-nav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-/*active session of top nav*/
-.top-nav a.active {
-  background-color: #04AA6D;
-  color: white;
-}
-/*top-nav right*/
-.top-nav-right{
-  float:right;
-}
 /*Inner*/
 .container{
-  width: 70%;
+  width: 65%;
   display: block;
   position: relative;
   margin: auto;
@@ -75,13 +47,10 @@
 /*image*/
 .image-section{
   float:right;
-  width:45%;
+  width:48%;
 }
 .image-section img{
-  margin-top: 0px;
-  margin-left:0px;
   width:100%;
-  height: auto;
   border-radius: 20%;
 }
 .content-section .title{
@@ -95,35 +64,30 @@
 }
 .content-section .content p{
   text-align: center;
-  margin-top: 20px;
-  margin-left: 20px;
+  margin: 20px;
   padding-left: 10px;
   padding-right: 10px;
   font-family: sans-serif;
   font-size: 17px;
   line-height: 1.5;
 }
-.content-section .button{
-  margin-top: 30px;
-  margin-inline-start: 25%;
-  }
-.content-section .button a{
-  display: relative;
+#button-mail{
+  display: block;
   background-color: #ff0000;
   padding:12px 40px;
   color:rgb(217, 255, 2);
   text-decoration:none;
   font-size: 20px;
   letter-spacing: 1.5px;
-}
+  text-align: center;
+  }
 .content-section .button a:hover{
   background-color:#a52a2a;
   color:#fff;
 }
 .social{
-  margin: 30px;
-  margin-inline-start: 25%;
-
+  width: 50%;
+  margin: 20px auto;
 }
 .social i{
   color:#a52a2a;
@@ -181,10 +145,11 @@
     padding: 10px 25px;    
   }
   .social{
-    margin: 50px;
+    width: 60%;
+    margin: 20px auto;
   }
   .content-section .social{
     text-align: center;
-    margin-top: 60px;    
+        
   }
 }
