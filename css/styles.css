@@ -1,20 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+body,html{
+  background-image: linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),url(/img/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+}
 *{
   margin:0px;
   padding:0px;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   color:#fff;
-}
-/*Outer part*/
-.about-section{
-  display: relative;
-  width: 100%;
-  min-height: 100vh;
-  background-image: linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),url(/img/bg.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 /*Inner*/
 .container{
