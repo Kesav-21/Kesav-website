@@ -39,9 +39,7 @@ body,html{
   margin-top: 50px;
   width:50%;
 }
-.title{
-  text-align: center;
-}
+
 /*image*/
 .image-section{
   float:right;
@@ -51,12 +49,11 @@ body,html{
   width:100%;
   border-radius: 20%;
 }
-.content-section .title{
-  margin-left: 30px;
-  font-size: 25px;
+.content-section .content h1{
+  text-align: center;
+  padding: 10px;
 }
 .content-section .content h3{
-  margin-left:30px;
   color: #008cff;
   text-align: center;
 }
@@ -101,7 +98,7 @@ body,html{
     float:none;
   }
   .container{
-    width: 80%;
+    width: 90%;
     display: block;
     position: relative;
     margin: auto;
@@ -111,10 +108,9 @@ body,html{
     float:none;
     width: 100%;
     display: block;
-    margin:auto;
   }
   .text-section{
-    width: auto;
+    width:100%;
   }
   .image-section{
     float:none;
@@ -122,16 +118,11 @@ body,html{
   }
   .image-section img{
     width:70%;
-    height: auto;
     display: block;
     margin:auto;
     margin-top: 10px;
     border-radius: 50%;
     object-fit: cover;
-  }
-.content-section .title{
-  text-align: center;
-  font-size:19px;
   }
   .content-section .button{
     text-align: center;
@@ -143,11 +134,10 @@ body,html{
     padding: 10px 25px;    
   }
   .social{
-    width: 60%;
+    width: 65%;
     margin: 20px auto;
   }
   .content-section .social{
-    text-align: center;
-        
+    text-align: center; 
   }
 }
